@@ -12,9 +12,9 @@ This repo is part of idea to build simple and extensible UI kit with 4 different
 
 This repo is dedicted only for UI kit built with `styled-components` library. Check out others on links below:
 
-- emotion [demo](#) [source code](#)
-- styled-jsx [demo](#) [source code](#)
-- react-jss [demo](#) [source code](#)
+- emotion [demo](#) | [source code](#)
+- styled-jsx [demo](#) | [source code](#)
+- react-jss [demo](#) | [source code](#)
 
 ## Demo
-Demo and visual documentaion of this UI kit will be available on [http://styled-components-ui-kit.now.sh](http://styled-components-ui-kit.now.sh)
+Demo and visual documentaion of this UI kit will be available on [https://styled-components-ui-kit.now.sh](https://styled-components-ui-kit.now.sh)
