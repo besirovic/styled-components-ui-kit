@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "now-build": "build-storybook"
   },
   "dependencies": {
     "react": "^16.8.6",
