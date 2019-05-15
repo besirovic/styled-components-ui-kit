@@ -4,7 +4,7 @@
   "alias": "styled-components-ui-kit.ademirbesirovic.dev",
   "builds": [{
     "src": "package.json",
-    "use": "@now/static-builder",
+    "use": "@now/static-build",
     "config": {
       "distDir": "storybook-static"
     }
