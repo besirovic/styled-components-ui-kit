@@ -19,4 +19,4 @@ This repo is dedicted only for UI kit built with `styled-components` library. Ch
 | react-jss  | Comming soon | Comming soon |
 
 ## Demo
-Demo and visual documentaion of this UI kit will be available on [https://styled-components-ui-kit.now.sh](https://styled-components-ui-kit.now.sh)
+Demo and visual documentaion of this UI kit will be available on [https://styled-components-ui-kit.ademirbesirovic.dev](https://styled-components-ui-kit.ademirbesirovic.dev)
