@@ -2,17 +2,17 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Button = styled.button`
-  background-color: ${props => !props.disabled ? props.theme.button[props.color].backgroundColor.default : props.theme.button.disabled.backgroundColor};
-  color: ${props => !props.disabled ? props.theme.button[props.color].color.default : props.theme.button.disabled.color};
+  background-color: ${props => props.theme.button[props.color].backgroundColor[props.disabled ? 'hover' : 'default']};
+  color: ${props => props.theme.button[props.color].color.default};
   
   padding: ${props => props.theme.button[props.size].padding};
   border: none;
   border-radius: 3px;
 
   &:hover {
-  cursor: ${props => !props.disabled ? 'pointer' : 'disabled'};
-    background-color: ${props => !props.disabled ? props.theme.button[props.color].backgroundColor.hover : undefined};
-    color: ${props => !props.disabled ? props.theme.button[props.color].color.hover : undefined};
+  cursor: ${props => !props.disabled ? 'pointer' : 'not-allowed'};
+    background-color: ${props => props.theme.button[props.color].backgroundColor.hover};
+    color: ${props => props.theme.button[props.color].color.hover};
   }
 
   &, &:active {
