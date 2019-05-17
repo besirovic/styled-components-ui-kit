@@ -1,41 +1,56 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { Flex, Box } from '@rebass/grid';
 
 import Card from './Card';
+import CardREADME from './CardREADME.md';
 
 storiesOf('Components|Card', module)
-  .add('Light Card', () => (
-    <Card>
-      <h3>Card with light background</h3>
-    </Card>
-  ))
-  .add('Dark Card', () => (
-    <Card backgroundColor='dark'>
-      <h3 style={{ color: '#eee' }}>Card with dark background</h3>
-    </Card>
-  ))
-  .add('Primary Card', () => (
-    <Card backgroundColor='primary'>
-      <h3 style={{ color: '#eee' }}>Card with dark background</h3>
-    </Card>
-  ))
-  .add('Secondary Card', () => (
-    <Card backgroundColor='secondary'>
-      <h3 style={{ color: '#eee' }}>Card with dark background</h3>
-    </Card>
-  ))
-  .add('Custom Background Card', () => (
-    <Card backgroundColor='red'>
-      <h3 style={{ color: '#eee' }}>Card with dark background</h3>
-    </Card>
-  ))
-  .add('Full Width and centered Card', () => (
-    <Card fullWidth centered>
-      <h3>Card with full width and centered content</h3>
-    </Card>
-  ))
-  .add('Card with border', () => (
-    <Card borderWidth={8} borderColor='red'>
-      <h3>Card with border custom defined border</h3>
-    </Card>
+  .addParameters({
+    readme: {
+      content: CardREADME
+    }
+  })
+  .add('demo', () => (
+    <React.Fragment>
+      <Flex>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth>
+            <h3>Card with light background</h3>
+          </Card>
+        </Box>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth backgroundColor='dark'>
+            <h3 style={{ color: '#eee' }}>Card with dark background</h3>
+          </Card>
+        </Box>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth backgroundColor='primary'>
+            <h3 style={{ color: '#eee' }}>Card with primary background</h3>
+          </Card>
+        </Box>
+      </Flex>
+      <Flex>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth backgroundColor='secondary'>
+            <h3 style={{ color: '#eee' }}>Card with secondary background</h3>
+          </Card>
+        </Box>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth backgroundColor='red'>
+            <h3 style={{ color: '#eee' }}>Card with dark background</h3>
+          </Card>
+        </Box>
+        <Box width={1 / 3} p={20}>
+          <Card fullWidth borderWidth={8} borderColor='red'>
+            <h3>Card with border custom defined border</h3>
+          </Card>
+        </Box>
+      </Flex>
+      <Flex>
+        <Card fullWidth centered>
+          <h3>Card with full width and centered content</h3>
+        </Card>
+      </Flex>
+    </React.Fragment>
   ));

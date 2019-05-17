@@ -17,9 +17,9 @@ const Card = styled.div`
 Card.propTypes = {
   fullWidth: PropTypes.bool,
   centered: PropTypes.bool,
-  backgroundColor: PropTypes.oneOf(['primary', 'secondary', 'light', 'dark']) || PropTypes.string,
-  borderWidth: PropTypes.oneOf(['small', 'medium', 'large']) || PropTypes.number,
-  borderColor: PropTypes.oneOf(['primary', 'secondary', 'light', 'dark']) || PropTypes.string,
+  backgroundColor: PropTypes.string,
+  borderWidth: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  borderColor: PropTypes.string,
   borderStyle: PropTypes.string
 };
 
