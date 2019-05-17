@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Card from './Card';
 
-storiesOf('Card', module)
+storiesOf('Components|Card', module)
   .add('Light Card', () => (
     <Card>
       <h3>Card with light background</h3>

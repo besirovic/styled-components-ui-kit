@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Input from './Input';
 
-storiesOf('Input', module)
+storiesOf('Components|Input', module)
   .add('normal input', () => (
     <React.Fragment>
       <Input size='small' placeholder='Small input' /><br /><br />

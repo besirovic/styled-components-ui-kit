@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 
 import Button from './Button';
 
-storiesOf('Button', module)
+storiesOf('Components|Button', module)
   .add('primary button', () => (
     <React.Fragment>
       <Button color='primary' size='small'>Small Primary button</Button><br /><br />
