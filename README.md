@@ -1,6 +1,6 @@
 # Styled Components UI Kit
 ```
-Simple UI kit to demonstrate power and usage of styled-components
+Simple UI kit built to demonstrate power and usage of styled-components library
 ```
 
 ## Idea and motivation
