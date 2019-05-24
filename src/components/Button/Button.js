@@ -19,7 +19,7 @@ const Button = styled.button`
 `;
 
 Button.propTypes = {
-  color: PropTypes.oneOf(['primary', 'secondary', 'dark', 'light', 'default']),
+  color: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   disabled: PropTypes.bool
 };
