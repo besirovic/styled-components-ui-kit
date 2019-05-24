@@ -38,12 +38,12 @@ storiesOf('Components|Card', module)
         </Box>
         <Box width={1 / 3} p={20}>
           <Card fullWidth backgroundColor='red'>
-            <h3 style={{ color: '#eee' }}>Card with dark background</h3>
+            <h3 style={{ color: '#eee' }}>Card with custom background</h3>
           </Card>
         </Box>
         <Box width={1 / 3} p={20}>
           <Card fullWidth borderWidth={8} borderColor='red'>
-            <h3>Card with border custom defined border</h3>
+            <h3>Card with custom defined border</h3>
           </Card>
         </Box>
       </Flex>
