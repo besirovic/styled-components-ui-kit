@@ -15,7 +15,7 @@ This repo is dedicted only for UI kit built with `styled-components` library. Ch
 | library    | Demo         | Source code  |
 | ---------- | ------------ | ------------ |
 | emotion    | [https://emotion-ui-kit.ademirbesirovic.dev](https://emotion-ui-kit.ademirbesirovic.dev) | [https://github.com/besirovic/emotion-ui-kit](https://github.com/besirovic/emotion-ui-kit) |
-| styled-jsx | Comming soon | Comming soon |
+| styled-jsx | [https://styled-jsx-ui-kit.ademirbesirovic.dev](https://styled-jsx-ui-kit.ademirbesirovic.dev) | [https://github.com/besirovic/styled-jsx-ui-kit](https://github.com/besirovic/styled-jsx-ui-kit) |
 | react-jss  | Comming soon | Comming soon |
 
 ## Demo
